@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SwagLabs" time="15.242" tests="1" failures="0" errors="0">
+   <testsuite name="SwagLabs" tests="1" failures="0" errors="0" time="15.242" skipped="0" timestamp="2022-07-19 14:25:57" hostname="Dian Ramadan - LAPTOP-ADJ6E617" id="Test Suites/SwagLabs">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dian Ramadan\\Katalon Studio\\SwagLabs_test\\Reports\\20220719_142543\\SwagLabs\\20220719_142543"/>
+         <property name="logFiles" value="C:\\Users\\Dian Ramadan\\Katalon Studio\\SwagLabs_test\\Reports\\20220719_142543\\SwagLabs\\20220719_142543\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dian Ramadan - LAPTOP-ADJ6E617"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.1.58"/>
+         <property name="sessionId" value="1f17150830a567600955cd5cac649807"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SwagLabs" time="14.942" classname="Test Cases/SwagLabs" status="PASSED">
+         <system-out><![CDATA[2022-07-19 14:25:57 - [TEST_CASE][PASSED] - Test Cases/SwagLabs: Test Cases/SwagLabs
+
+2022-07-19 14:25:58 - [TEST_STEP][PASSED] - openBrowser("https://www.saucedemo.com/"): Browser is opened with url: 'https://www.saucedemo.com/'
+
+2022-07-19 14:25:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-19 14:25:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-19 14:26:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.saucedemo.com/'
+
+2022-07-19 14:26:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Username"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Username'
+
+2022-07-19 14:26:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Username'
+
+2022-07-19 14:26:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Password"), "secret_sauce"): Keys 'secret_sauce' sent to object: 'Object Repository/Password'
+
+2022-07-19 14:26:03 - [MESSAGE][PASSED] - Keys 'secret_sauce' sent to object: 'Object Repository/Password'
+
+2022-07-19 14:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/button_login")): Object: 'Object Repository/button_login' is clicked on
+
+2022-07-19 14:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/button_login' is clicked on
+
+2022-07-19 14:26:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-19 14:26:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-19 14:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SauceLabs_Backpack")): Object: 'Object Repository/SauceLabs_Backpack' is clicked on
+
+2022-07-19 14:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SauceLabs_Backpack' is clicked on
+
+2022-07-19 14:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Add_To_Cart_Backpack")): Object: 'Object Repository/Button_Add_To_Cart_Backpack' is clicked on
+
+2022-07-19 14:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Add_To_Cart_Backpack' is clicked on
+
+2022-07-19 14:26:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2022-07-19 14:26:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2022-07-19 14:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_Cart")): Object: 'Object Repository/Button_Cart' is clicked on
+
+2022-07-19 14:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_Cart' is clicked on
+
+2022-07-19 14:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Button_CheckOut")): Object: 'Object Repository/Button_CheckOut' is clicked on
+
+2022-07-19 14:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Button_CheckOut' is clicked on
+
+2022-07-19 14:26:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CheckOut_FistName"), "test"): Text 'test' is set on object 'Object Repository/CheckOut_FistName'
+
+2022-07-19 14:26:10 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/CheckOut_FistName'
+
+2022-07-19 14:26:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CheckOut_LastName"), "Swag"): Text 'Swag' is set on object 'Object Repository/CheckOut_LastName'
+
+2022-07-19 14:26:11 - [MESSAGE][PASSED] - Text 'Swag' is set on object 'Object Repository/CheckOut_LastName'
+
+2022-07-19 14:26:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CheckOut_ZIP"), "1122"): Text '1122' is set on object 'Object Repository/CheckOut_ZIP'
+
+2022-07-19 14:26:12 - [MESSAGE][PASSED] - Text '1122' is set on object 'Object Repository/CheckOut_ZIP'
+
+2022-07-19 14:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CheckOut_Continue")): Object: 'Object Repository/CheckOut_Continue' is clicked on
+
+2022-07-19 14:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CheckOut_Continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-19 14:25:57 - [TEST_SUITE][PASSED] - SwagLabs: Test Cases/SwagLabs]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

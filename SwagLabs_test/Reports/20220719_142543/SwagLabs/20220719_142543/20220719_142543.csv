@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SwagLabs,Chrome 103.0.5060.114,,,2022-07-19 14:25:57,2022-07-19 14:26:12,15.242s,PASSED
+,,,,,,,
+Test Cases/SwagLabs,Chrome 103.0.5060.114,,,2022-07-19 14:25:57,2022-07-19 14:26:12,14.942s,PASSED
+"openBrowser(""https://www.saucedemo.com/"")",Chrome 103.0.5060.114,,,2022-07-19 14:25:58,2022-07-19 14:26:02,4.231s,PASSED
+"setText(findTestObject(""Object Repository/Username""), ""standard_user"")",Chrome 103.0.5060.114,,,2022-07-19 14:26:02,2022-07-19 14:26:03,0.932s,PASSED
+"sendKeys(findTestObject(""Object Repository/Password""), ""secret_sauce"")",Chrome 103.0.5060.114,,,2022-07-19 14:26:03,2022-07-19 14:26:03,0.383s,PASSED
+"click(findTestObject(""Object Repository/button_login""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:03,2022-07-19 14:26:04,0.803s,PASSED
+delay(2),Chrome 103.0.5060.114,,,2022-07-19 14:26:04,2022-07-19 14:26:06,2.090s,PASSED
+"click(findTestObject(""Object Repository/SauceLabs_Backpack""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:06,2022-07-19 14:26:06,0.433s,PASSED
+"click(findTestObject(""Object Repository/Button_Add_To_Cart_Backpack""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:06,2022-07-19 14:26:07,0.534s,PASSED
+delay(1),Chrome 103.0.5060.114,,,2022-07-19 14:26:07,2022-07-19 14:26:08,1.011s,PASSED
+"click(findTestObject(""Object Repository/Button_Cart""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:08,2022-07-19 14:26:08,0.453s,PASSED
+"click(findTestObject(""Object Repository/Button_CheckOut""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:08,2022-07-19 14:26:09,0.571s,PASSED
+"setText(findTestObject(""Object Repository/CheckOut_FistName""), ""test"")",Chrome 103.0.5060.114,,,2022-07-19 14:26:09,2022-07-19 14:26:10,0.887s,PASSED
+"setText(findTestObject(""Object Repository/CheckOut_LastName""), ""Swag"")",Chrome 103.0.5060.114,,,2022-07-19 14:26:10,2022-07-19 14:26:11,0.791s,PASSED
+"setText(findTestObject(""Object Repository/CheckOut_ZIP""), ""1122"")",Chrome 103.0.5060.114,,,2022-07-19 14:26:11,2022-07-19 14:26:12,0.866s,PASSED
+"click(findTestObject(""Object Repository/CheckOut_Continue""))",Chrome 103.0.5060.114,,,2022-07-19 14:26:12,2022-07-19 14:26:12,0.582s,PASSED
